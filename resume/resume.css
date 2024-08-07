@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+	background-image: url("current.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: rgb(187, 187, 187);
+	/* font-family: Copperplate, fantasy; */
+	/* font-family: Helvetica, Verdana, Arial, sans-serif */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 0;
+    padding: 1rem;
+}
+h2 { 
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-style: italic;
+}
+
+a:link {
+    color: rgb(104, 132, 146)
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+.table {
+    background-color: rgba(0, 0, 0, 0.88);
+    max-width: 960px;
+    margin: auto;
+    padding: 0;
+}
+
+.row {
+    max-width: 960px;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3em;
+    }
+}
+
+.column {
+    padding: 1em auto;
+    margin: 1em auto;
+}
+
+.contact {
+    text-align: center;
+    margin: 0;
+}
+
+.summary {
+    padding-bottom: 1em;
+}
+
+.employment {
+}
+
+.skills {
+    padding-bottom: 1em;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.skills li {
+    margin: none;
+}
+
+.education {
+}
+
+ul {
+    margin-bottom: 2em;
+}
+
